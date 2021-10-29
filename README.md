@@ -1,4 +1,4 @@
-# Keysign-Pa
+# Keysign-Pay
 Keysignpay allows for easy tnbc transactions.
 
 * No 3rd party middleman fees ever!
