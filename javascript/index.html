@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Meta -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet"> 
+
+        <!-- Title-->
+        <title>Welcome</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>  
+
+        <div class="ksp-container">
+            <div class="logo-area">
+                <a href="#">
+                    <img src="img/logo.svg" alt="">
+                </a>
+            </div>
+
+            <div class="loading-area d-flex flex-wrap justify-content-between align-items-center">
+                <div class="text-box  d-flex flex-wrap align-items-center">
+                    <img src="img/loading.svg" alt="">
+                    Payment Loading....
+                </div>
+
+                <div class="time-box">
+                    19:57
+                </div>
+            </div>
+
+            <div class="body-contents">
+                <div class="top-area">
+                    <p>Chess registration fee <strong>60 TNBC</strong></p>
+                </div>
+
+                <div class="tab-buttons d-flex">
+                    <a href="#" class="d-flex justify-content-center align-items-center active" data-index="1"><img src="img/scan.svg" alt=""> Scan</a>
+                    <a href="#" class="d-flex justify-content-center align-items-center" data-index="2"><img src="img/copy.svg" alt=""> Copy</a>
+                </div>
+
+                <div class="tab active" id="tab-1">
+                    <div class="qr-box">
+                        <img src="img/qr.svg" alt="">
+                    </div>
+
+                    <div class="button-box">
+                        <a href="#" class="button-primary">Pay with browser</a>
+                        <p>or</p>
+                        <a href="#" class="button-primary">Pay with desktop</a>
+                    </div>
+                </div>
+
+                <div class="tab" id="tab-2">
+                    <p class="note">Please send 60 TNBC to the address below to complete your transaction.</p>
+
+                    <div class="tnbc-box">
+                        <p>Amount</p>
+                        <h2>60 TNBC</h2>
+
+                        <P>Address</P>
+                        <input type="text" value="24gnkdjabbeejph1j7f43nzacbfvb75mn5g3haez">
+
+                        <p>Memo</p>
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+        </div>      
+
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+        <script src="keysignpay.js"></script>
+
+    </body>
+</html>
+    
