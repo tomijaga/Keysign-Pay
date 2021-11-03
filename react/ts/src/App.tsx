@@ -1,24 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import KeysignPay from "./components/KeysignPay";
 
 function App() {
+  const [isVisible, setIsVisible] = useState(false);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <button className="app-button w-60" onClick={() => setIsVisible(true)}>
+        Purchase an Item
+      </button>
+
+      <KeysignPay
+        title="Purchase Item Name"
+        amount={1234567}
+        accountNumber={"0".repeat(60).concat("dead")}
+        visible={isVisible}
+        onPageClose={() => setIsVisible(false)}
+        onSuccess={(res) => console.log("Successful Transaction", res)}
+        onFailed={(res) => console.log("Transaction Failed", res)}
+      />
     </div>
   );
 }
