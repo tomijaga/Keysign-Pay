@@ -57,7 +57,7 @@ function App() {
 | onPageClose   | Specify a function that will determine what happens when a user closes the payment page | ()=>void                      |                          |
 | onSuccess     | Specify a function that will be called when the transaction is complete                 | (result: KeysignResult)=>void |                          |
 | title         | The name of the product, subscription or service you are offering                       | string                        |                          |
-| visible       | Prop to show the payment page                                                           | boolean                       | false                    |
+| visible       | Displays the payment page                                                               | boolean                       | false                    |
 
 ### KeysignResult
 

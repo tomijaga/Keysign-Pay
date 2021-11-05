@@ -10,11 +10,9 @@ Keysignpay allows for easy tnbc transactions.
 
 ## React Component
 
-<hr/>
-
 This directory features a react component for the keysign sdk that allows people to set up a payment page for tnbc purchases.
 
-For more details on the component, take a look at the [documentation](https://github.com/tomijaga/Keysign-Pay/tree/main/react/docs)
+For more details on the component, take a look at the [documentation](https://github.com/tomijaga/Keysign-Pay/tree/main/react/docs.md)
 
 ## Setup Project Environment (TSDX React)
 
