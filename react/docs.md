@@ -40,16 +40,16 @@ function App() {
 
 ### KeysignPay
 
-| Property      | Description                                                                             | Type                          | Default                  |
-| ------------- | --------------------------------------------------------------------------------------- | ----------------------------- | ------------------------ |
-| accountNumber | The account number receiving the tnbc when someone purchases                            | string                        |                          |
-| amount        | The amount of the item in tnbc                                                          | number                        |                          |
-| node          | The ip address or domain of the node you want to process the transaction                | string                        | https://bank.keysign.app |
-| onFailed      | Specify a function that will be called when the transaction fails                       | (result: KeysignResult)=>void |                          |
-| onPageClose   | Specify a function that will determine what happens when a user closes the payment page | ()=>void                      |                          |
-| onSuccess     | Specify a function that will be called when the transaction is complete                 | (result: KeysignResult)=>void |                          |
-| title         | The name of the product, subscription or service you are offering                       | string                        |                          |
-| visible       | Displays the payment page                                                               | boolean                       | false                    |
+| Property      | Description                                                                             | Type                            | Default                  |
+| ------------- | --------------------------------------------------------------------------------------- | ------------------------------- | ------------------------ |
+| accountNumber | The account number receiving the tnbc when someone purchases                            | string                          |                          |
+| amount        | The amount of the item in tnbc                                                          | number                          |                          |
+| node          | The ip address or domain of the node you want to process the transaction                | string                          | https://bank.keysign.app |
+| onFailed      | Specify a function that will be called when the transaction fails                       | function(result: KeysignResult) |                          |
+| onPageClose   | Specify a function that will determine what happens when a user closes the payment page | function()                      |                          |
+| onSuccess     | Specify a function that will be called when the transaction is complete                 | function(result: KeysignResult) |                          |
+| title         | The name of the product, subscription or service you are offering                       | string                          |                          |
+| visible       | Displays the payment page                                                               | boolean                         | false                    |
 
 ### KeysignResult
 
