@@ -31,7 +31,7 @@ const App = () => {
         <Input
           name="Amount"
           value={amount}
-          setValue={value => setAmount(value)}
+          setValue={value => setAmount(Number(value))}
         />
         <Input name="Memo" value={memo} setValue={value => setMemo(value)} />
       </div>
