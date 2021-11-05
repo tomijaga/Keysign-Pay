@@ -2,15 +2,7 @@
 
 A react component for setting up a payment page for tnbc purchases.
 
-## Usage
-
-- Install npm package
-
-```
-    npm i keysign-pay-react
-```
-
-- Add to your App
+## Example
 
 ```ts
 import React, { useState } from 'react';
