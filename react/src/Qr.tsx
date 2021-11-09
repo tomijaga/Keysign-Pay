@@ -6,7 +6,7 @@ interface QrProps {
   text: string;
 }
 
-export const Qr: FC<QrProps> = ({ text }) => {
+export const Qr: FC<QrProps> = ({ text, className }) => {
   const [qr, setQr] = useState<ReactNode | null>(null);
 
   useEffect(() => {
@@ -17,7 +17,7 @@ export const Qr: FC<QrProps> = ({ text }) => {
           light: '#0000',
         },
       });
-      setQr(<img className="w-full" alt="QR Code" src={url} />);
+      setQr(<img className={`w-full ${className}`} alt="QR Code" src={url} />);
     };
 
     generateQR();

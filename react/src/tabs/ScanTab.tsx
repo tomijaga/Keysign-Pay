@@ -1,10 +1,10 @@
-import React, { useContext, useEffect, useState } from "react";
-import LoadingIcon from "../icons/LoadingIcon";
+import React, { useContext, useEffect, useState } from 'react';
+import LoadingIcon from '../icons/LoadingIcon';
 
-import { Qr } from "../Qr";
-import { KeysignResult, Transaction } from "../types";
-import { waitForKeysignToLoad } from "../utils";
-import { KeysignPayContext } from "../context";
+import { TransferQr } from '../QrStandards';
+import { KeysignResult, Transaction } from '../types';
+import { waitForKeysignToLoad } from '../utils';
+import { KeysignPayContext } from '../context';
 
 const ScanTab = () => {
   const [tx, setTx] = useState<Transaction>({} as Transaction);
@@ -33,25 +33,25 @@ const ScanTab = () => {
   return (
     <>
       <div className="w-72 h-72 rounded-2xl area-bg-lightblue">
-        <Qr text={JSON.stringify(tx)} />
+        <TransferQr tx={tx} />
       </div>
 
       <div className="flex flex-col w-full gap-1">
         <button
           disabled={lookingForKeysign}
           className={`${
-            !lookingForKeysign ? "primary-button" : "disabled-button"
+            !lookingForKeysign ? 'primary-button' : 'disabled-button'
           }`}
           onClick={() => {
             if (!keysign) {
               if (
                 window.confirm(
-                  "Keysign is not installed on your browser. Click Ok to download Keysign from the chrome web store"
+                  'Keysign is not installed on your browser. Click Ok to download Keysign from the chrome web store'
                 )
               )
                 window.open(
-                  "https://chrome.google.com/webstore/detail/keysign/icgabofdocpmhlcamjijifghkijnccbo",
-                  "_blank"
+                  'https://chrome.google.com/webstore/detail/keysign/icgabofdocpmhlcamjijifghkijnccbo',
+                  '_blank'
                 );
             } else {
               keysign.requestHandshake(() => {
@@ -70,7 +70,7 @@ const ScanTab = () => {
                     }
                   },
                   node,
-                  "randomly generated code"
+                  'randomly generated code'
                 );
               });
             }
