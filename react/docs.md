@@ -1,6 +1,6 @@
 # KeysignPay
 
-> A react component written in typescript that makes it easy to set up a payment page for tnbc purchases.
+A react component written in typescript that makes it easy to set up a payment page for tnbc purchases.
 
 ![Keysign Payment Page Screenshot](./keysign_pay_img.png)
 
