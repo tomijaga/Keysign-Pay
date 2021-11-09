@@ -8,7 +8,7 @@ Keysignpay allows for easy tnbc transactions.
 - Multiple platform support
 - Plug and play
 
-## React Component
+## Typescript React Component
 
 This directory features a react component for the keysign sdk that allows people to set up a payment page for tnbc purchases.
 

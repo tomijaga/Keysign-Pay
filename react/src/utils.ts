@@ -20,3 +20,7 @@ export const waitForKeysignToLoad = (callback: (keysign: any) => void) => {
     }
   }, 1000);
 };
+
+export const toJSON = (message: Object) => {
+  return JSON.stringify(message);
+};

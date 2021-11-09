@@ -75,7 +75,7 @@ function styleInject(css, ref) {
   }
 }
 
-var css_248z = "/*! tailwindcss v2.2.19 | MIT License | https://tailwindcss.com*/\n\n/*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */html{-webkit-text-size-adjust:100%;line-height:1.15;-moz-tab-size:4;tab-size:4}body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji}hr{color:inherit;height:0}abbr[title]{text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,select{text-transform:none}[type=button],button{-webkit-appearance:button}legend{padding:0}progress{vertical-align:baseline}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}button{background-color:transparent;background-image:none}fieldset,ol,ul{margin:0;padding:0}ol,ul{list-style:none}html{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;line-height:1.5}body{font-family:inherit;line-height:inherit}*,:after,:before{border:0 solid;box-sizing:border-box}hr{border-top-width:1px}img{border-style:solid}textarea{resize:vertical}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}button{cursor:pointer}table{border-collapse:collapse}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}button,input,optgroup,select,textarea{color:inherit;line-height:inherit;padding:0}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}*,:after,:before{--tw-border-opacity:1;border-color:rgba(229,231,235,var(--tw-border-opacity))}.mask{--tw-bg-opacity:1;--tw-bg-opacity:0.05;background-color:rgba(0,0,0,var(--tw-bg-opacity))}.primary-button{--tw-text-opacity:1;--tw-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -2px rgba(0,0,0,.05);align-items:center;border-radius:1rem;box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);color:rgba(0,0,0,var(--tw-text-opacity));color:rgba(255,255,255,var(--tw-text-opacity));display:flex;font-weight:600;gap:.75rem;height:3rem;justify-content:center;padding:.5rem 1rem;width:100%}.primary-button:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);--tw-ring-opacity:1;--tw-ring-color:rgba(96,165,250,var(--tw-ring-opacity));--tw-ring-opacity:0.75;box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000);outline:2px solid transparent;outline-offset:2px}.primary-button{background-color:#1565d8}.secondary-button{--tw-text-opacity:1}.disabled-button,.secondary-button{align-items:center;border-radius:1rem;color:rgba(0,0,0,var(--tw-text-opacity));display:flex;font-weight:600;gap:.75rem;height:3rem;justify-content:center;padding:.5rem 1rem;width:100%}.disabled-button{--tw-bg-opacity:1;--tw-text-opacity:1;background-color:rgba(209,213,219,var(--tw-bg-opacity));color:rgba(255,255,255,var(--tw-text-opacity));cursor:default}.text-input-display{--tw-bg-opacity:1;background-color:rgba(255,255,255,var(--tw-bg-opacity));border-radius:.75rem;font-size:.75rem;height:2rem;line-height:1rem;overflow-x:auto;padding:.5rem;text-align:center;width:100%}.visible{visibility:visible}.absolute{position:absolute}.relative{position:relative}.top-0{top:0}.top-4{top:1rem}.right-4{right:1rem}.m-auto{margin:auto}.flex{display:flex}.table{display:table}.grid{display:grid}.h-72{height:18rem}.h-full{height:100%}.h-screen{height:100vh}.w-60{width:15rem}.w-72{width:18rem}.w-96{width:24rem}.w-4\\/5{width:80%}.w-full{width:100%}.w-screen{width:100vw}@keyframes spin{to{transform:rotate(1turn)}}@keyframes ping{75%,to{opacity:0;transform:scale(2)}}@keyframes pulse{50%{opacity:.5}}@keyframes bounce{0%,to{animation-timing-function:cubic-bezier(.8,0,1,1);transform:translateY(-25%)}50%{animation-timing-function:cubic-bezier(0,0,.2,1);transform:none}}.cursor-auto{cursor:auto}.cursor-pointer{cursor:pointer}.auto-rows-auto{grid-auto-rows:auto}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.flex-col{flex-direction:column}.items-center{align-items:center}.justify-between{justify-content:space-between}.justify-items-center{justify-items:center}.gap-1{gap:.25rem}.gap-2{gap:.5rem}.gap-3{gap:.75rem}.gap-5{gap:1.25rem}.gap-6{gap:1.5rem}.overflow-y-auto{overflow-y:auto}.rounded-2xl{border-radius:1rem}.rounded-3xl{border-radius:1.5rem}.border{border-width:1px}.border-gray-300{--tw-border-opacity:1;border-color:rgba(209,213,219,var(--tw-border-opacity))}.bg-white{--tw-bg-opacity:1;background-color:rgba(255,255,255,var(--tw-bg-opacity))}.bg-gray-200{--tw-bg-opacity:1;background-color:rgba(229,231,235,var(--tw-bg-opacity))}.p-8{padding:2rem}.p-10{padding:2.5rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.py-1{padding-bottom:.25rem;padding-top:.25rem}.py-2{padding-bottom:.5rem;padding-top:.5rem}.py-12{padding-bottom:3rem;padding-top:3rem}.text-xs{font-size:.75rem;line-height:1rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-2xl{font-size:1.5rem;line-height:2rem}.font-medium{font-weight:500}.text-black{--tw-text-opacity:1;color:rgba(0,0,0,var(--tw-text-opacity))}.text-gray-400{--tw-text-opacity:1;color:rgba(156,163,175,var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgba(107,114,128,var(--tw-text-opacity))}.hover\\:text-gray-700:hover{--tw-text-opacity:1;color:rgba(55,65,81,var(--tw-text-opacity))}*,:after,:before{--tw-shadow:0 0 #0000;--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000}.App{font-size:17px;text-align:center}.button-color{background-color:#1565d8}.area-bg-lightblue{background-color:rgba(21,101,216,.1)}@media (prefers-reduced-motion:no-preference){.loading{animation:App-logo-spin 2s linear infinite}}@keyframes App-logo-spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;margin:0}code{font-family:source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace}";
+var css_248z = "/*! tailwindcss v2.2.19 | MIT License | https://tailwindcss.com*/\n\n/*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */html{-webkit-text-size-adjust:100%;line-height:1.15;-moz-tab-size:4;tab-size:4}body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji}hr{color:inherit;height:0}abbr[title]{text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,select{text-transform:none}[type=button],button{-webkit-appearance:button}legend{padding:0}progress{vertical-align:baseline}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}button{background-color:transparent;background-image:none}fieldset,ol,ul{margin:0;padding:0}ol,ul{list-style:none}html{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;line-height:1.5}body{font-family:inherit;line-height:inherit}*,:after,:before{border:0 solid;box-sizing:border-box}hr{border-top-width:1px}img{border-style:solid}textarea{resize:vertical}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}button{cursor:pointer}table{border-collapse:collapse}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}button,input,optgroup,select,textarea{color:inherit;line-height:inherit;padding:0}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}*,:after,:before{--tw-border-opacity:1;border-color:rgba(229,231,235,var(--tw-border-opacity))}.primary-button{--tw-text-opacity:1;--tw-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -2px rgba(0,0,0,.05);align-items:center;border-radius:1rem;box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);color:rgba(0,0,0,var(--tw-text-opacity));color:rgba(255,255,255,var(--tw-text-opacity));display:flex;font-weight:600;gap:.75rem;height:3rem;justify-content:center;padding:.5rem 1rem;width:100%}.primary-button:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);--tw-ring-opacity:1;--tw-ring-color:rgba(96,165,250,var(--tw-ring-opacity));--tw-ring-opacity:0.75;box-shadow:var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000);outline:2px solid transparent;outline-offset:2px}.primary-button{background-color:#1565d8}.secondary-button{--tw-text-opacity:1}.disabled-button,.secondary-button{align-items:center;border-radius:1rem;color:rgba(0,0,0,var(--tw-text-opacity));display:flex;font-weight:600;gap:.75rem;height:3rem;justify-content:center;padding:.5rem 1rem;width:100%}.disabled-button{--tw-bg-opacity:1;--tw-text-opacity:1;background-color:rgba(209,213,219,var(--tw-bg-opacity));color:rgba(255,255,255,var(--tw-text-opacity));cursor:default}.text-input-display{--tw-bg-opacity:1;background-color:rgba(255,255,255,var(--tw-bg-opacity));border-radius:.75rem;font-size:.75rem;height:2rem;line-height:1rem;overflow-x:auto;padding:.5rem;text-align:center;width:100%}.visible{visibility:visible}.absolute{position:absolute}.relative{position:relative}.top-0{top:0}.top-4{top:1rem}.right-4{right:1rem}.m-auto{margin:auto}.flex{display:flex}.table{display:table}.grid{display:grid}.h-72{height:18rem}.h-full{height:100%}.h-screen{height:100vh}.w-60{width:15rem}.w-72{width:18rem}.w-96{width:24rem}.w-4\\/5{width:80%}.w-full{width:100%}.w-screen{width:100vw}@keyframes spin{to{transform:rotate(1turn)}}@keyframes ping{75%,to{opacity:0;transform:scale(2)}}@keyframes pulse{50%{opacity:.5}}@keyframes bounce{0%,to{animation-timing-function:cubic-bezier(.8,0,1,1);transform:translateY(-25%)}50%{animation-timing-function:cubic-bezier(0,0,.2,1);transform:none}}.cursor-auto{cursor:auto}.cursor-pointer{cursor:pointer}.auto-rows-auto{grid-auto-rows:auto}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.flex-col{flex-direction:column}.items-center{align-items:center}.justify-between{justify-content:space-between}.justify-items-center{justify-items:center}.gap-1{gap:.25rem}.gap-2{gap:.5rem}.gap-3{gap:.75rem}.gap-5{gap:1.25rem}.gap-6{gap:1.5rem}.overflow-y-auto{overflow-y:auto}.rounded-2xl{border-radius:1rem}.rounded-3xl{border-radius:1.5rem}.border{border-width:1px}.border-gray-300{--tw-border-opacity:1;border-color:rgba(209,213,219,var(--tw-border-opacity))}.bg-white{--tw-bg-opacity:1;background-color:rgba(255,255,255,var(--tw-bg-opacity))}.bg-gray-200{--tw-bg-opacity:1;background-color:rgba(229,231,235,var(--tw-bg-opacity))}.p-8{padding:2rem}.p-10{padding:2.5rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.py-1{padding-bottom:.25rem;padding-top:.25rem}.py-2{padding-bottom:.5rem;padding-top:.5rem}.py-12{padding-bottom:3rem;padding-top:3rem}.text-xs{font-size:.75rem;line-height:1rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-2xl{font-size:1.5rem;line-height:2rem}.font-medium{font-weight:500}.text-black{--tw-text-opacity:1;color:rgba(0,0,0,var(--tw-text-opacity))}.text-gray-400{--tw-text-opacity:1;color:rgba(156,163,175,var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgba(107,114,128,var(--tw-text-opacity))}.hover\\:text-gray-700:hover{--tw-text-opacity:1;color:rgba(55,65,81,var(--tw-text-opacity))}*,:after,:before{--tw-shadow:0 0 #0000;--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000}.App{font-size:17px;text-align:center}.button-color{background-color:#1565d8}.area-bg-lightblue{background-color:rgba(21,101,216,.1)}@media (prefers-reduced-motion:no-preference){.loading{animation:App-logo-spin 2s linear infinite}}@keyframes App-logo-spin{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;margin:0}code{font-family:source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace}";
 styleInject(css_248z);
 
 var ScanIcon = function ScanIcon(_ref) {
@@ -966,7 +966,8 @@ try {
 });
 
 var Qr = function Qr(_ref) {
-  var text = _ref.text;
+  var text = _ref.text,
+      className = _ref.className;
 
   var _useState = React.useState(null),
       qr = _useState[0],
@@ -991,7 +992,7 @@ var Qr = function Qr(_ref) {
               case 2:
                 url = _context.sent;
                 setQr(React__default.createElement("img", {
-                  className: "w-full",
+                  className: "w-full " + className,
                   alt: "QR Code",
                   src: url
                 }));
@@ -1012,6 +1013,23 @@ var Qr = function Qr(_ref) {
     generateQR();
   }, [text]);
   return React__default.createElement(React__default.Fragment, null, qr);
+};
+
+var TransferQr = function TransferQr(_ref) {
+  var tx = _ref.tx,
+      className = _ref.className;
+  return React__default.createElement(Qr, {
+    className: className,
+    text: JSON.stringify(tx)
+  });
+};
+var SyncAccountsQR = function SyncAccountsQR(_ref2) {
+  var accounts = _ref2.accounts,
+      className = _ref2.className;
+  return React__default.createElement(Qr, {
+    className: className,
+    text: JSON.stringify(accounts)
+  });
 };
 
 var getTime = function getTime() {
@@ -1073,16 +1091,16 @@ var ScanTab = function ScanTab() {
   }, [accountNumber, amount, memo]);
   return React__default.createElement(React__default.Fragment, null, React__default.createElement("div", {
     className: "w-72 h-72 rounded-2xl area-bg-lightblue"
-  }, React__default.createElement(Qr, {
-    text: JSON.stringify(tx)
+  }, React__default.createElement(TransferQr, {
+    tx: tx
   })), React__default.createElement("div", {
     className: "flex flex-col w-full gap-1"
   }, React__default.createElement("button", {
     disabled: lookingForKeysign,
-    className: "" + (!lookingForKeysign ? "primary-button" : "disabled-button"),
+    className: "" + (!lookingForKeysign ? 'primary-button' : 'disabled-button'),
     onClick: function onClick() {
       if (!keysign) {
-        if (window.confirm("Keysign is not installed on your browser. Click Ok to download Keysign from the chrome web store")) window.open("https://chrome.google.com/webstore/detail/keysign/icgabofdocpmhlcamjijifghkijnccbo", "_blank");
+        if (window.confirm('Keysign is not installed on your browser. Click Ok to download Keysign from the chrome web store')) window.open('https://chrome.google.com/webstore/detail/keysign/icgabofdocpmhlcamjijifghkijnccbo', '_blank');
       } else {
         keysign.requestHandshake(function () {
           // console.log('Keysign is installed!');
@@ -1101,7 +1119,7 @@ var ScanTab = function ScanTab() {
             } else {
               onFailed == null ? void 0 : onFailed(res);
             }
-          }, node, "randomly generated code");
+          }, node, 'randomly generated code');
         });
       }
     }
@@ -1131,7 +1149,7 @@ var KeysignPay = function KeysignPay(_ref) {
       node = _ref$node === void 0 ? 'https://bank.keysign.app' : _ref$node,
       title = _ref.title,
       _ref$visible = _ref.visible,
-      visible = _ref$visible === void 0 ? false : _ref$visible,
+      visible = _ref$visible === void 0 ? true : _ref$visible,
       onSuccess = _ref.onSuccess,
       onFailed = _ref.onFailed,
       onPageClose = _ref.onPageClose;
@@ -1156,12 +1174,7 @@ var KeysignPay = function KeysignPay(_ref) {
     style: {
       display: visible ? '' : 'none'
     },
-    className: "App mask h-screen w-screen flex \n         absolute top-0 overflow-y-auto",
-    onClick: function onClick(e) {
-      if (e.target.classList.contains('mask')) {
-        onPageClose == null ? void 0 : onPageClose();
-      }
-    }
+    className: "App bg-white h-screen w-screen flex \n         absolute top-0 overflow-y-auto"
   }, React__default.createElement("div", {
     className: "bg-white border-gray-300 border gap-3 py-12 m-auto\n        justify-items-center items-center grid auto-rows-auto relative",
     style: {
@@ -1211,4 +1224,6 @@ var KeysignPay = function KeysignPay(_ref) {
 };
 
 exports.KeysignPay = KeysignPay;
+exports.SyncAccountsQR = SyncAccountsQR;
+exports.TransferQr = TransferQr;
 //# sourceMappingURL=keysign-pay-react.cjs.development.js.map
